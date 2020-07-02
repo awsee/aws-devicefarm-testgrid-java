@@ -1,3 +1,5 @@
+package mytests
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -12,7 +14,7 @@ import software.amazon.awssdk.services.devicefarm.model.CreateTestGridUrlRespons
 
 import java.net.URL;
 
-public class AwsDeviceFarm {
+public class AwsDeviceFarmSelenium {
     private static RemoteWebDriver driver;
 
     @BeforeTest
